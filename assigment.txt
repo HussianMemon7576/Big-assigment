@@ -1,0 +1,238 @@
+JavaScript Assignment
+
+Q1;
+JavaScript kya hai? Iski definition likhein aur batayein ke web development mein iska role kya
+hai.
+
+Javascript aik wesbite ka engine hai isko chalane ke liye html snd css ani chahye
+Example
+
+aik car hai us car ka structure => Html;
+uska color => css
+uska Engine => Javascript
+
+Hum javascript ke zarye apni wesbite ko intractive and dynamic banasakye hai ke button ke dabane me konsa action karna hai wagera
+agar hum javascript na lagaye to hamri website me sirf text and images dikhengi 
+
+Q2.
+Variable kya hota hai? JavaScript mein variables kyun use kiye jaate hain? 
+
+
+(ans) variable ye hota hai ke hum koi si bhi value kisi dabbe me rakh rhe hai 
+
+ ex
+
+ let age = 20
+
+let varaible hai age variable ka name and 20 value agar hum variable na banye to error ayenge
+har variable ke name unique hona chaye
+
+
+ Q3.
+
+ JavaScript mein var, let aur const ka difference likhein.
+
+
+
+js me 3 types of variables hote hai
+
+1) Var
+2) let
+3) const
+
+Var ko hum reassign and redecleare kar sakte hai 
+
+example
+
+var age = 20;
+
+age= 30 reassign
+
+var age = 50
+
+redeclare karliya age ke name se dobara
+
+let
+
+let ko hum reassign kar sakte hai redeclare nhi kar sakte
+
+let name = Hussain"
+
+name  = "Ali" reassign ho gya
+
+let name = "Bilal" Error ayega redecleare nhi kar sakte us name se
+
+Const
+
+Const ko hum aik baar bana aik name usko pasi us name se redeleare and reassign nhi kar sakte
+
+Example
+const id = 471518
+
+id = 202020 Error ayega reassign nhi kar sakte wapsi
+
+const id = 1212121Error ayega redeleare nhi kar sakte us name se
+
+Q4.
+Data type kya hoti hai? JavaScript ki any four data types example ke sath likhein.
+
+(Ans) Data type wo hota hai jis me hum variable ke andar jo value store karte hai wo batate kis date type me hogi.
+
+1)String  ""  ''
+String aik dataype hai ye hum text jub store karte hai variable me jub use karte hai.
+
+Example
+
+let name = "Hussain"
+
+2)Number 
+
+ Number tub use karte hai jub variable me koi number ya integar rakhna ho
+
+Example
+
+ let id  = 471518
+	let pi = 3.14 
+
+
+3) Boolean
+boolean ka matlab hota hai 2 type ki value store kar sakte hai true and false
+
+Example
+let isloggedin = true
+let isPaid = false;
+
+4)Undifiend 
+Undifined ka matlab hota hai koi variable banaya magr usko value nhi di
+Example
+let name;  => Undifiend hai abhi
+name ko hum baad me agar reassign kare to ye undifiend nhi hoga
+
+Q5.
+Primitive aur Non-Primitive data types mein difference likhein.
+
+Primitive data types simple hote hain aur value change nahi hoti, jaise Number (5) aur String ("Ali").
+Non-Primitive data types complex hote hain aur value change ho sakti hai, jaise Array ([1,2,3]) aur Object ({name: "Ali"}).
+
+Q6.
+Operators kya hotay hain? JavaScript ke any three operators example ke sath likhein.
+
+ans) opreator wo hote hai jo hum batate hai value ke saath kya karna hai baad me
+
+Arithmetic Operators (Math)
+
++ 
+
+Example 
+
+let value  = 10;
+value = (20+10)
+console.log(value)
+
+Assignment Operators
++=
+
+ye opreator value add karke usi wapt assign bhi kar deta hai
+
+let id = 2;
+id += 5;
+console.log(id);
+
+Comparison Operators
+===
+
+example 
+
+5 === "5" // false
+5 === 5 // true
+
+Q7.
+Assignment operator (=) aur comparison operators (==, ===) mein difference likhein.
+
+
+1)Assigment opreator = == ===
+
+Sirf value store karta hai variable me bus.
+
+example
+
+let name = "Hussain;
+
+== 
+
+sirf value dekhta hai datatype ignorre karta hai.
+Example
+
+5 == "5"
+
+output: True;
+
+===  
+Strict hota hai datatype and and valur dono comapre karta hai jese
+
+5 === "5"
+
+output: False
+
+Answer:
+
+= (Assignment operator) variable me value store karta hai, jaise let x = 5;
+== aur === (Comparison operators) values ko compare karte hain; == sirf value check karta hai (5 == "5" → true) aur === value aur type dono check karta hai (5 === "5" → false).
+
+Q8.
+
+if else statement kya hoti hai? Ek simple example likhein.
+
+Answer:
+
+if…else statement condition check karne ke liye use hoti hai; agar condition true ho to if ka code chalega, warna else ka code chalega.
+
+Example:
+
+let age = 18;
+
+if(age >= 18){
+    console.log("Adult");
+} else {
+    console.log("Child");
+}
+
+Q9.
+switch case statement kya hoti hai? break ka role explain karein.
+
+Switch ka use jub karte hai jub aik hi value se hum khelna ho isme hum opreator ka use nhi karte bus variable banate hai and switch se compare karte hai 
+Example
+let color = "red";
+switch(color){
+    case "red":
+        console.log("Stop");
+        break;
+    case "green":
+        console.log("Go");
+        break;
+    case "yellow":
+        console.log("Wait");
+        break;
+    default:
+        console.log("Unknown color");
+}
+
+agar hum breake na lagaye to agle sare cases bhi chal jaenge sahi match hone ke bawajood is se js behaviour khrab hota hai
+Q10.
+
+
+if else aur switch case ka comparison likhein (kam az kam 2 points)
+
+Condition type:
+
+if…else = complex conditions (>, <, &&, ||) handle kar sakta hai
+
+switch = ek variable ke exact value ke liye use hota hai
+
+Execution:
+
+if…else → pehla true condition execute hoti hai
+
+switch → matching case execute hota hai aur break na ho to next cases bhi execute ho sakte hain
+
+
